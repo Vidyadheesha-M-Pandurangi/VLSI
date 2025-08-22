@@ -1,0 +1,88 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x59CC5545E96DE135",
+      "device": "xc7k70tfbv676-1",
+      "gen_directory": "../../../../Synchronous_FIFO.gen/sources_1/bd/Block_Diagram",
+      "name": "Block_Diagram",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2"
+    },
+    "design_tree": {
+      "fifo_generator_0": "",
+      "clk_wiz": ""
+    },
+    "ports": {
+      "reset_rtl_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_LOW"
+          }
+        }
+      },
+      "clk_100MHz": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000000"
+          }
+        }
+      },
+      "locked_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "fifo_generator_0": {
+        "vlnv": "xilinx.com:ip:fifo_generator:13.2",
+        "ip_revision": "11",
+        "xci_name": "Block_Diagram_fifo_generator_0_0",
+        "xci_path": "ip\\Block_Diagram_fifo_generator_0_0\\Block_Diagram_fifo_generator_0_0.xci",
+        "inst_hier_path": "fifo_generator_0"
+      },
+      "clk_wiz": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "ip_revision": "15",
+        "xci_name": "Block_Diagram_clk_wiz_0",
+        "xci_path": "ip\\Block_Diagram_clk_wiz_0\\Block_Diagram_clk_wiz_0.xci",
+        "inst_hier_path": "clk_wiz",
+        "parameters": {
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "100.0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_100MHz_1": {
+        "ports": [
+          "clk_100MHz",
+          "clk_wiz/clk_in1"
+        ]
+      },
+      "clk_wiz_clk_out1": {
+        "ports": [
+          "clk_wiz/clk_out1",
+          "fifo_generator_0/clk"
+        ]
+      },
+      "clk_wiz_locked": {
+        "ports": [
+          "clk_wiz/locked",
+          "locked_0"
+        ]
+      },
+      "reset_rtl_0_1": {
+        "ports": [
+          "reset_rtl_0",
+          "fifo_generator_0/srst",
+          "clk_wiz/reset"
+        ]
+      }
+    }
+  }
+}

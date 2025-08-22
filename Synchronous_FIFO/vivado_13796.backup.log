@@ -1,0 +1,131 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue May 13 10:08:54 2025
+# Process ID         : 13796
+# Current directory  : C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent48616 C:\Users\Vidyadheesha M Pandurangi\Desktop\VD\My Projects\VLSI\Synchronous_FIFO\Synchronous_FIFO.xpr
+# Log file           : C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO/vivado.log
+# Journal file       : C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO\vivado.jou
+# Running On         : Vidyadheesha
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13650HX
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 25463 MB
+# Swap memory        : 1610 MB
+# Total Virtual      : 27074 MB
+# Available Virtual  : 16683 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO/Synchronous_FIFO.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 1194.180 ; gain = 80.980
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Testbench_Synchronous_FIFO'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO/Synchronous_FIFO.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Vivado/2024.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO/Synchronous_FIFO.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Testbench_Synchronous_FIFO' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO/Synchronous_FIFO.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Testbench_Synchronous_FIFO_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO/Synchronous_FIFO.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Testbench_Synchronous_FIFO_behav xil_defaultlib.Testbench_Synchronous_FIFO xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Testbench_Synchronous_FIFO_behav xil_defaultlib.Testbench_Synchronous_FIFO xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO/Synchronous_FIFO.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Testbench_Synchronous_FIFO_behav -key {Behavioral:sim_1:Functional:Testbench_Synchronous_FIFO} -tclbatch {Testbench_Synchronous_FIFO.tcl} -protoinst "protoinst_files/Block_Diagram.protoinst" -view {{C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO/Testbench_Synchronous_FIFO_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Block_Diagram.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Block_Diagram.protoinst for the following reason(s):
+There are no instances of module "Block_Diagram" in the design.
+
+Time resolution is 1 ps
+open_wave_config {C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO/Testbench_Synchronous_FIFO_behav.wcfg}
+source Testbench_Synchronous_FIFO.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+----- WRITING TO FIFO -----
+Write:   0, Full: 0, Empty: 1
+Write:   1, Full: 0, Empty: 1
+Write:   2, Full: 0, Empty: 0
+Write:   3, Full: 0, Empty: 0
+Write:   4, Full: 0, Empty: 0
+Write:   5, Full: 0, Empty: 0
+Write:   6, Full: 0, Empty: 0
+Write:   7, Full: 0, Empty: 0
+Write:   8, Full: 0, Empty: 0
+Write:   9, Full: 0, Empty: 0
+Write:  10, Full: 0, Empty: 0
+Write:  11, Full: 0, Empty: 0
+Write:  12, Full: 0, Empty: 0
+Write:  13, Full: 0, Empty: 0
+Write:  14, Full: 0, Empty: 0
+Write:  15, Full: 0, Empty: 0
+----- READING FROM FIFO -----
+Read:   0, Full: 0, Empty: 0
+Read:   0, Full: 0, Empty: 0
+Read:   1, Full: 1, Empty: 0
+Read:   2, Full: 0, Empty: 0
+Read:   3, Full: 0, Empty: 0
+Read:   4, Full: 0, Empty: 0
+Read:   5, Full: 0, Empty: 0
+Read:   6, Full: 0, Empty: 0
+Read:   7, Full: 0, Empty: 0
+Read:   8, Full: 0, Empty: 0
+Read:   9, Full: 0, Empty: 0
+Read:  10, Full: 0, Empty: 0
+Read:  11, Full: 0, Empty: 0
+Read:  12, Full: 0, Empty: 0
+Read:  13, Full: 0, Empty: 0
+Read:  14, Full: 0, Empty: 0
+----- SIMULTANEOUS READ/WRITE -----
+RW: Write 100 | Read  15 | Full: 0 | Empty: 1
+RW: Write 101 | Read  15 | Full: 0 | Empty: 1
+RW: Write 102 | Read  15 | Full: 0 | Empty: 0
+RW: Write 103 | Read 100 | Full: 0 | Empty: 0
+RW: Write 104 | Read 101 | Full: 0 | Empty: 0
+RW: Write 105 | Read 102 | Full: 0 | Empty: 0
+RW: Write 106 | Read 103 | Full: 0 | Empty: 0
+RW: Write 107 | Read 104 | Full: 0 | Empty: 0
+$stop called at time : 445 ns : File "C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/My Projects/VLSI/Synchronous_FIFO/Synchronous_FIFO.srcs/sources_1/new/Testbench_Synchronous_FIFO.v" Line 91
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 1228.504 ; gain = 9.277
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Testbench_Synchronous_FIFO_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 1228.504 ; gain = 29.430

@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon May 12 17:12:21 2025
+# Process ID         : 40188
+# Current directory  : C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/Adhiyamaan College of Engineering/My CDIO Project Reports/Semester VI/Design and Simulation of a Synchronous FIFO Buffer/Synchronous_FIFO
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent15824 C:\Users\Vidyadheesha M Pandurangi\Desktop\VD\Adhiyamaan College of Engineering\My CDIO Project Reports\Semester VI\Design and Simulation of a Synchronous FIFO Buffer\Synchronous_FIFO\Synchronous_FIFO.xpr
+# Log file           : C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/Adhiyamaan College of Engineering/My CDIO Project Reports/Semester VI/Design and Simulation of a Synchronous FIFO Buffer/Synchronous_FIFO/vivado.log
+# Journal file       : C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/Adhiyamaan College of Engineering/My CDIO Project Reports/Semester VI/Design and Simulation of a Synchronous FIFO Buffer/Synchronous_FIFO\vivado.jou
+# Running On         : Vidyadheesha
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13650HX
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 25463 MB
+# Swap memory        : 1610 MB
+# Total Virtual      : 27074 MB
+# Available Virtual  : 10333 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/Adhiyamaan College of Engineering/My CDIO Project Reports/Semester VI/Design and Simulation of a Synchronous FIFO Buffer/Synchronous_FIFO/Synchronous_FIFO.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/Adhiyamaan College of Engineering/My CDIO Project Reports/Semester VI/Design and Simulation of a Synchronous FIFO Buffer/Synchronous_FIFO'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1277.105 ; gain = 160.707
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 12 17:12:56 2025...

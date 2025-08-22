@@ -1,0 +1,28 @@
+
+*** Running vivado
+    with args -log Testbench_Synchronous_FIFO.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Testbench_Synchronous_FIFO.tcl -notrace
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Mon May 12 17:11:34 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Testbench_Synchronous_FIFO.tcl -notrace
+Command: link_design -top Testbench_Synchronous_FIFO -part xc7k70tfbv676-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 554.637 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+3 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+link_design failed
+ERROR: [Common 17-680] Path length exceeds 248-Byte maximum allowed by Windows: C:/Users/Vidyadheesha M Pandurangi/Desktop/VD/Adhiyamaan College of Engineering/My CDIO Project Reports/Semester VI/Design and Simulation of a Synchronous FIFO Buffer/Synchronous_FIFO/Synchronous_FIFO.runs/impl_1/.Xil/Vivado-38308-Vidyadheesha/hdfFromDcp
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+INFO: [Common 17-206] Exiting Vivado at Mon May 12 17:11:43 2025...
