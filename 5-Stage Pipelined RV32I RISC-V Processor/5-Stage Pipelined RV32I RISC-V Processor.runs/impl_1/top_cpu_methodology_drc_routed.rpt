@@ -1,0 +1,545 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Sat Feb 14 17:15:53 2026
+| Host         : Vidyadheesha running 64-bit major release  (build 9200)
+| Command      : report_methodology -file top_cpu_methodology_drc_routed.rpt -pb top_cpu_methodology_drc_routed.pb -rpx top_cpu_methodology_drc_routed.rpx
+| Design       : top_cpu
+| Device       : xc7a200tfbg676-2
+| Speed File   : -2
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 102
++-----------+----------+-------------------------------+--------+
+| Rule      | Severity | Description                   | Checks |
++-----------+----------+-------------------------------+--------+
+| TIMING-18 | Warning  | Missing input or output delay | 102    |
++-----------+----------+-------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on reset relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[0] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[10] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[11] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[12] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[13] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[14] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[15] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[16] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[17] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[18] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[19] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[1] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[20] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[21] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[22] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[23] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[24] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[25] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[26] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[27] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[28] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[29] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[2] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[30] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[31] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[3] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[4] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[5] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[6] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#31 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[7] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#32 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[8] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#33 Warning
+Missing input or output delay  
+An output delay is missing on dbg_instr[9] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#34 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[0] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#35 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[10] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#36 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[11] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#37 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[12] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#38 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[13] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#39 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[14] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#40 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[15] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#41 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[16] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#42 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[17] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#43 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[18] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#44 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[19] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#45 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[1] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#46 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[20] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#47 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[21] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#48 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[22] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#49 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[23] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#50 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[24] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#51 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[25] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#52 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[26] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#53 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[27] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#54 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[28] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#55 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[29] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#56 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[2] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#57 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[30] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#58 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[31] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#59 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[3] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#60 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[4] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#61 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[5] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#62 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[6] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#63 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[7] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#64 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[8] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#65 Warning
+Missing input or output delay  
+An output delay is missing on dbg_pc[9] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#66 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[0] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#67 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[10] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#68 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[11] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#69 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[12] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#70 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[13] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#71 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[14] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#72 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[15] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#73 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[16] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#74 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[17] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#75 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[18] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#76 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[19] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#77 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[1] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#78 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[20] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#79 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[21] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#80 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[22] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#81 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[23] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#82 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[24] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#83 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[25] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#84 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[26] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#85 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[27] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#86 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[28] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#87 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[29] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#88 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[2] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#89 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[30] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#90 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[31] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#91 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[3] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#92 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[4] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#93 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[5] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#94 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[6] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#95 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[7] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#96 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[8] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#97 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_data[9] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#98 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_rd[0] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#99 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_rd[1] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#100 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_rd[2] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#101 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_rd[3] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+TIMING-18#102 Warning
+Missing input or output delay  
+An output delay is missing on dbg_wb_rd[4] relative to the rising and/or falling clock edge(s) of sys_clk.
+Related violations: <none>
+
+
