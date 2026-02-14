@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"tb_top_cpu_func_impl.v" \
+"../../../../../5-Stage Pipelined RISC Processor.srcs/sim_1/new/tb_top_cpu.v" \
+
+# Do not sort compile order
+nosort

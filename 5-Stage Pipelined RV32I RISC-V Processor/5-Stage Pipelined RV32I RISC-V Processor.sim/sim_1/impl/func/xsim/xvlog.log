@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vidyadheesha_M_P/Downloads/5-Stage Pipelined RISC Processor/5-Stage Pipelined RISC Processor.sim/sim_1/impl/func/xsim/tb_top_cpu_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-311] analyzing module execute_stage
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-311] analyzing module top_cpu
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vidyadheesha_M_P/Downloads/5-Stage Pipelined RISC Processor/5-Stage Pipelined RISC Processor.srcs/sim_1/new/tb_top_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_cpu
