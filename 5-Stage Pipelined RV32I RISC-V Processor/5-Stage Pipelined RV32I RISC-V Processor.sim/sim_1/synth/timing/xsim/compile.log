@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vidyadheesha_M_P/Downloads/5-Stage Pipelined RISC Processor/5-Stage Pipelined RISC Processor.sim/sim_1/synth/timing/xsim/tb_top_cpu_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM32M_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32M_HD1
+INFO: [VRFC 10-311] analyzing module RAM32M_HD12
+INFO: [VRFC 10-311] analyzing module RAM32M_HD2
+INFO: [VRFC 10-311] analyzing module RAM32M_HD3
+INFO: [VRFC 10-311] analyzing module RAM32M_HD5
+INFO: [VRFC 10-311] analyzing module RAM32M_HD6
+INFO: [VRFC 10-311] analyzing module RAM32M_HD7
+INFO: [VRFC 10-311] analyzing module RAM32M_HD8
+INFO: [VRFC 10-311] analyzing module RAM32M_HD9
+INFO: [VRFC 10-311] analyzing module RAM32X1D_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1D_HD10
+INFO: [VRFC 10-311] analyzing module RAM32X1D_HD11
+INFO: [VRFC 10-311] analyzing module RAM32X1D_HD4
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-311] analyzing module execute_stage
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-311] analyzing module top_cpu
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vidyadheesha_M_P/Downloads/5-Stage Pipelined RISC Processor/5-Stage Pipelined RISC Processor.srcs/sim_1/new/tb_top_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_cpu

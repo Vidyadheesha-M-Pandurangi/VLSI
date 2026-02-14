@@ -1,0 +1,6 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/Vidyadheesha_M_P/Downloads/5-Stage Pipelined RISC Processor/5-Stage Pipelined RISC Processor.sim/sim_1/synth/timing/xsim/tb_top_cpu_time_synth.v,1770902479,verilog,,C:/Users/Vidyadheesha_M_P/Downloads/5-Stage Pipelined RISC Processor/5-Stage Pipelined RISC Processor.srcs/sim_1/new/tb_top_cpu.v,,RAM32M_HD1;RAM32M_HD12;RAM32M_HD2;RAM32M_HD3;RAM32M_HD5;RAM32M_HD6;RAM32M_HD7;RAM32M_HD8;RAM32M_HD9;RAM32M_UNIQ_BASE_;RAM32X1D_HD10;RAM32X1D_HD11;RAM32X1D_HD4;RAM32X1D_UNIQ_BASE_;alu;ex_mem;execute_stage;glbl;id_ex;if_id;mem_wb;pc;reg_file;top_cpu,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Vidyadheesha_M_P/Downloads/5-Stage Pipelined RISC Processor/5-Stage Pipelined RISC Processor.srcs/sim_1/new/tb_top_cpu.v,1770743712,verilog,,,,tb_top_cpu,,,../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
